@@ -20,6 +20,21 @@ Contactez moi sur l'adresse
 linkedfluuuush@gmail.com
 =====================
 
+Commandes git :
+
+$git pull origin master
+Récupère les modifications du serveur, INDISPENSABLE pour modifier les fichiers.
+
+$git add \<nom de fichier\>
+Ajoute le fichier pour l'upload
+
+$git commit -m \<message\>
+Confirme les modifications, assure l'upload des fichiers
+
+$git push origin master
+Uploade les fichiers ajoutés
+
+===================
 Fichiers de données
 ===================
 
