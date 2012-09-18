@@ -71,6 +71,7 @@ public class Personnage {
 		
 		this.carac = new Caracteristique();
 		carac.genererCarac(race);
+		carac.ajouterCar(c);
 	}
 	
 	//Getters et Setters

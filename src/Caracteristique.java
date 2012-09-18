@@ -194,6 +194,30 @@ public class Caracteristique {
 		
 		return this;
 	}
+	
+	Caracteristique ajouterCar(Carriere car){
+		Caracteristique carac = car.getCarac();
+		
+		this.cc += carac.getCc();
+		this.ct += carac.getCt();
+		this.f += carac.getF();
+		this.e += carac.getE();
+		this.ag += carac.getAg();
+		this.intel += carac.getIntel();
+		this.fm += carac.getFm();
+		this.soc += carac.getSoc();
+		
+		this.a += carac.getA();
+		this.b += carac.getB();
+		this.bf = (int)this.f/10;
+		this.be = (int)this.e/10;
+		this.m += carac.getM();
+		this.mag += carac.getMag();
+		this.pf = 0;
+		this.pd = 0;
+		
+		return this;
+	}
 
 	@Override
 	public String toString() {
